@@ -802,7 +802,7 @@ margin on the iframe, cause it breaks stuff. */
     top: -33px;
 }
 
-.gravatar {
+#gravatarImage {
 	float: left;
 	width: 80px;
 	height: 80px;
