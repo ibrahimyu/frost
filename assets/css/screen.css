@@ -516,8 +516,12 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .container {
-	max-width: 760px;
+	max-width: 700px;
 	margin: 0 auto;
+}
+
+.container.withimage {
+	max-width: 760px;
 	padding: 0 30px;
 }
 
@@ -542,8 +546,9 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .post-template {
-	background-color: #D6EDFF; /*#EEFAFF;*/
-    /*background-image: url('../img/nice_snow/nice_snow.png');*/
+	/* background image here */
+	/*background-image: url('../img/nice_snow/nice_snow.png');*/
+	/*background-color: #f5f5f5;*/
 }
 
 /* Kill that stylish little circle that was on the border, too */
@@ -808,8 +813,9 @@ margin on the iframe, cause it breaks stuff. */
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
-	background: #ccc;
 	margin-right: 8px;
+	padding: 2px;
+	border: 1px solid #ccc;
 }
 
 
@@ -852,7 +858,7 @@ margin on the iframe, cause it breaks stuff. */
     }
 
     .post-template .post-header {
-        padding: 40px 0;
+        padding: 40px 20px;
     }
 
     h1 {
@@ -932,7 +938,7 @@ margin on the iframe, cause it breaks stuff. */
     }
 
     .post-template .post-header {
-        padding: 30px 0;
+        padding: 30px 30px;
     }
 
     .post-meta {
