@@ -742,7 +742,7 @@ margin on the iframe, cause it breaks stuff. */
     margin-left: -30px;
     text-align: center;
     line-height: 2.4rem;
-    border-radius: 50px;
+    border-radius: 50% 50% 0 0;
     background: #0A2D39;
     transition: box-shadow 0.5s;
     color: #ddd
